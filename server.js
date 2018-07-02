@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 // routes
-require('./app/routing/survey.js')(app);
+require('./app/routing/api.js')(app);
 require('./app/routing/html-Routing.js')(app);
 
 
